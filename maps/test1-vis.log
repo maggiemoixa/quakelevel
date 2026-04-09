@@ -1,0 +1,14 @@
+---- vis / ericw-tools 2.0.0-alpha10-58-g9a257ee4 ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+LoadBSPFile: 'test1.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+Loading extended texinfo flags from test1.texinfo.json...
+************ ERROR ************
+LoadPrtFile: unknown header/empty portal file test1.prt
+
+
+

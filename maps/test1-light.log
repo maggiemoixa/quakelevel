@@ -1,0 +1,37 @@
+---- light / ericw-tools 2.0.0-alpha10-58-g9a257ee4 ----
+LoadBSPFile: 'test1.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+img::ConvertTextures: WARNING: invalid size data for 
+Loading extended texinfo flags from test1.texinfo.json...
+Loading extended content flags from test1.content.json...
+WARNING: test1.bsp[line 3]: Unrecognised string escape - \q
+WARNING: test1.bsp[line 3]: Unrecognised string escape - \e
+WARNING: test1.bsp[line 3]: Unrecognised string escape - \q
+WARNING: test1.bsp[line 3]: Unrecognised string escape - \Q
+4 entities read, 1 are lights.
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Embree_TraceInit: Embree version: 4.4.0
+Embree_TraceInit: 
+	0 sky faces
+	48 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 1 initial lights
+SetupLights: 1 after surface lights
+SetupLights: 1 after jittering
+Final count: 1 lights, 0 suns in use.
+0 surface light points in use.
+map uses color: false
+lightmap size (total): 2804
+Lighting Completed.
+
+0 switchable light styles (32 max)
+Writing test1.bsp as Quake BSP bsp29
+0.014s seconds elapsed
+0 empty lightmaps
+
+

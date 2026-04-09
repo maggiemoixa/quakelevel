@@ -1,0 +1,94 @@
+---- qbsp / ericw-tools 2.0.0-alpha10-58-g9a257ee4 ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Input file: E:\quake-leveldesign-starterkit-20260316-windows\tools\ironwail\id1\maps\test1-compile.map
+Output file: E:\quake-leveldesign-starterkit-20260316-windows\tools\ironwail\id1\maps\test1.bsp
+
+INFO: using built-in palette.
+WARNING: test1-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: test1-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: test1-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: test1-compile.map[line 4]: Unrecognised string escape - \Q
+       42 entities
+       23 unique textures
+    1,403 texinfos
+    1,504 unique planes
+
+INFO: world extents calculated to 7304 units
+      515 brushes
+    3,162 sides
+      302 side bevels
+
+            0 texture frames added
+WARNING: unable to find texture skip
+Processing hull 0...
+    512 SOLID brushes
+      3 SKY brushes
+    515 brushes total
+    3,162 visible sides
+INFO: calculating BSP for 515 brushes with 3162 sides
+      515 brushes
+    3,162 visible faces
+    5,250 nodes
+    3,941 expensive split nodes
+    1,309 mid-split nodes
+    5,251 leaves
+    2,685 EMPTY leafs
+    2,186 SOLID leafs
+      367 SKY leafs
+       13 SOLID | SKY leafs
+    5,251 leafs total
+    30 max tree height
+    15 avg tree height
+    25 tiny portals
+    23,236 tree portals
+WARNING: Reached occupant "info_player_deathmatch" at (-2320 2592 40), no filling performed.
+Leak file written to test1.pts
+            7 portals written to test1.leak.prt
+    25 tiny portals
+    23,236 tree portals
+    14,874 sides visible
+    8,235 makefaces
+    1,268 merged
+    1,892 subdivided
+    529 nodes pruned
+    2,685 EMPTY leafs
+    1,657 SOLID leafs
+      367 SKY leafs
+       13 SOLID | SKY leafs
+    4,722 leafs total
+    30 max tree height
+    15 avg tree height
+     6,720 edges added by tjunctions
+     7,966 faces optimized through MWT
+    22,769 triangles computed from MWT
+     1,776 faces created via optimization of MWT triangles
+    21,683 edges
+     9,990 faces
+Processing hull 1...
+Processing hull 2...
+Writing test1.bsp as Quake BSP bsp29
+Wrote test1.bsp
+
+count   lump name    byte size 
+      1 models               64
+   1341 planes            26820
+  10893 vertexes         130716
+   4721 nodes            113304
+   1002 texinfos          40080
+   9990 faces            199800
+   3711 clipnodes         29688
+   3053 leafs             85484
+  11015 marksurfaces      22030
+  21684 edges             86736
+  42997 surfedges        171988
+     23 textures         164176
+        lightdata             0
+        visdata               0
+        entdata            2585
+
+0.494s seconds elapsed
+
+
